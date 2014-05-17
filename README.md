@@ -3,7 +3,7 @@
 This is proof of concept for automatically-expiring TODO notes.
 
 TODO comments can be a plague on a software codebase. They begin as a good
-intention to go back and do something, but are easily forgotten or ignore.
+intention to go back and do something, but are easily forgotten or ignored.
 They can hang around in code for years. And unlike stale code, they're not excecuted,
 so they never cause anything to break.
 
