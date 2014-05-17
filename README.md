@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/andyw8/do_by.svg)](https://travis-ci.org/andyw8/do_by)
 
-This is a proof-of-concept of automatically-expiring TODO notes.
+This is a **proof-of-concept** of automatically-expiring TODO notes.
 
 [HackerNews thread](https://news.ycombinator.com/item?id=7759878)
 
