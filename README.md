@@ -30,10 +30,7 @@ end
 
 Before that date, everything will run as normal. After that date, the code will raise an exception:
 
-``
-DoBy::LateTask:
-  'fix this' is overdue (2014-04-01)
-``
+`DoBy::LateTask 'fix this' is overdue (2014-06-01)`
 
 In your production environment, set `DISABLE_DO_BY=1` to disable checks.
 
