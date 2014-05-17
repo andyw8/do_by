@@ -37,6 +37,12 @@ In your production environment, set `DISABLE_DO_BY=1` to disable checks.
 
 The date can be anything parseable by Ruby's `DateTime.parse` method - `2014-06`, `June`, etc.
 
+## FAQ
+
+**Why not just use the features my IDE/editor has for tracking TODOs?**
+
+You need to either remember to check these periodically, or choose to always display them when you run you tests. If these stick around for more than a short time you'll start ignoring them.
+
 ## Installation
 
 Add this line to your application's Gemfile:
