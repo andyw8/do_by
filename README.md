@@ -1,5 +1,7 @@
 # DoBy
 
+[![Build Status](https://travis-ci.org/andyw8/do_by.svg)](https://travis-ci.org/andyw8/do_by)
+
 This is a proof-of-concept of automatically-expiring TODO notes.
 
 TODO comments can be a plague on a software codebase. They begin as a good
