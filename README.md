@@ -18,36 +18,18 @@ change the date to something in the future to re-visit it again.
 
 # Example
 
-You can add reminders to specs or the actual implementation, anywhere
-that will be executed:
+DoBy requires that all TODO commments are suffixed with a due date, for example:
 
-```ruby
-def say_hello
-  puts "hello world"
-  TODO 'fix this', '2014-06-01'
-end
-```
+`# TODO 20140601 fix this, '2014-06-01'`
 
-Before that date, everything will run as normal. After that date, the code will
-raise an exception:
-
-`DoBy::LateTask: 'fix this' is overdue (2014-06-01)`
-
-In your production environment, set `DISABLE_DO_BY=1` to disable checks.
-
-The date can be anything parseable by Ruby's `DateTime.parse` method - `2014-06`, `June`, etc.
-
-## FAQ
-
-**Why not just use the features my IDE/editor has for tracking TODOs?**
-
-You need to either remember to check these periodically, or choose to always display them when you run you tests. If these stick around for more than a short time you'll start ignoring them.
+In your CI system, configure your test suite to be dependent on DoBy exiting
+succesfully, for example in your build script:
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'do_by', github: 'andyw8/do_by'
+    gem 'do_by', group: 'test'
 
 And then execute:
 
