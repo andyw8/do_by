@@ -49,6 +49,14 @@ The date can be anything parseable by Ruby's `DateTime.parse` method - `2014-06`
 
 You need to either remember to check these periodically, or choose to always display them when you run you tests. If these stick around for more than a short time you'll start ignoring them.
 
+## Discussion
+
+Several people have suggested that this concept could exist as a script which scans over the code for TODOs. That means the TODOs could stay as actual comments, supplemented with some metadata, e.g.:
+
+`TODO [20140601] Fix Me`
+
+This script could run as part of a Continous Integration process so that it fails the build if there are overdue TODOs.
+
 ## Installation
 
 Add this line to your application's Gemfile:
