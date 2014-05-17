@@ -19,6 +19,6 @@ module DoBy
 end
 
 def TODO(*args)
-  return if ENV['DISABLE_DO_BY']
+  return unless ENV['ENABLE_DO_BY']
   DoBy::Note.new(*args)
 end
