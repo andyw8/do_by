@@ -21,7 +21,7 @@ change the date to something in the future to re-visit it again.
 You can add rememinders to specs or the actual implementation, anywhere
 that will be executed:
 
-```
+```ruby
 def say_hello
   puts "hello world"
   TODO 'fix this', '2014-06-01'
