@@ -21,7 +21,12 @@ change the date to something in the future to re-visit it again.
 You can add rememinders to specs or the actual implementation, anywhere
 that will be executed:
 
-`TODO 'fix this', '2014-06-01'`
+```
+def say_hello
+  puts "hello world"
+  TODO 'fix this', '2014-06-01'
+end
+```
 
 Before that date, everything will run as normal. After that date, the code will raise an exception:
 
