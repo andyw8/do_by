@@ -18,7 +18,7 @@ change the date to something in the future to re-visit it again.
 
 # Example
 
-You can add rememinders to specs or the actual implementation, anywhere
+You can add reminders to specs or the actual implementation, anywhere
 that will be executed:
 
 ```ruby
