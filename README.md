@@ -1,6 +1,7 @@
 # DoBy
 
 [![Build Status](https://travis-ci.org/andyw8/do_by.svg)](https://travis-ci.org/andyw8/do_by)
+[![Code Climate](https://codeclimate.com/github/andyw8/do_by.png)](https://codeclimate.com/github/andyw8/do_by)
 
 This is a **proof-of-concept** of automatically-expiring TODO notes.
 
