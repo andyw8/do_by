@@ -3,14 +3,16 @@
 This is proof of concept for automatically-expiring TODO notes.
 
 TODO comments can be a plague on a software codebase. They begin as a good
-intention to go back and do something, but are easily forgotten. They can hang
-around in code for years. They're not code, so they don't cause anything to fail.
+intention to go back and do something, but are easily forgotten or ignore.
+They can hang around in code for years. And unlike stale code, they're not excecuted,
+so they never cause anything to break.
 
-DoBy makes your TODO comments complain when they become stale. You
-specify a date which you to defer until. When your tests run, the TODOs expiry
-dates will be checked, and the test will fail if the task is overdue.
+DoBy makes your TODO comments complain when they become stale. You add a note
+using a special `TODO` method, providing a date which you to defer until.
+When your code runs, the expiry date on the TODO will be checked, and it will
+raise an error if it's overdue.
 
-This forces you  to look at the TODO task again. If it's no longer relevant, you
+This forces you to look at the TODO task again. If it's no longer relevant, you
 can delete it. If you can fix it, you fix it. If you cannot fix it right now,
 change the date to something in the future to re-visit it again.
 
