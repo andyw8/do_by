@@ -37,7 +37,7 @@ DoBy::LateTask:
 
 In your production environment, set `DISABLE_DO_BY=1` to disable checks.
 
-The date can be anything parseable by Ruby's `DateTime.parse` method.
+The date can be anything parseable by Ruby's `DateTime.parse` method - '2014-06', 'June', etc.
 
 ## Installation
 
