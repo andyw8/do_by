@@ -28,12 +28,14 @@ def say_hello
 end
 ```
 
+Enable DoBy checks by setting `ENABLE_DO_BY=1`.
+(It's made that way so it doesn't run by default on production
+environments. You wouldn't want accidents to happen!)
+
 Before that date, everything will run as normal. After that date, the code will
 raise an exception:
 
 `DoBy::LateTask: 'fix this' is overdue (2014-06-01)`
-
-In your production environment, set `DISABLE_DO_BY=1` to disable checks.
 
 The date can be anything parseable by Ruby's `DateTime.parse` method - `2014-06`, `June`, etc.
 
