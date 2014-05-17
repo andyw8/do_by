@@ -19,8 +19,7 @@ change the date to something in the future to re-visit it again.
 You can add rememinders to specs or the actual implementation, anywhere
 that will be executed:
 
-`
-TODO 'fix this', '2014-06-01'
+`TODO 'fix this', '2014-06-01'`
 
 In your production environment, set `DISABLE_DO_BY=1` to disable checks.
 
@@ -30,15 +29,11 @@ The date can be anything parseable by Ruby's `DateTime.parse` method.
 
 Add this line to your application's Gemfile:
 
-    gem 'do_by'
+    gem 'do_by', github: 'andyw8/do_by'
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install do_by
 
 ## Contributing
 
