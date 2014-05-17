@@ -32,7 +32,7 @@ def say_hello
 end
 ```
 
-Enable DoBy checks by setting `ENABLE_DO_BY=1`.
+Enable DoBy checks by setting `ENABLE_DO_BY=1` in the environment.
 (It's made that way so it doesn't run by default on production
 environments. You wouldn't want accidents to happen!)
 
