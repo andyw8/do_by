@@ -1,4 +1,4 @@
-require 'do_by'
+require 'spec_helper'
 
 describe DoBy::Note do
   before do
