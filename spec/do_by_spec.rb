@@ -27,9 +27,19 @@ describe DoBy::Note do
         to raise_error(DoBy::LateTask, "foo is overdue (2014-06-01 18:00)")
     end
 
-    it "supports a DSL" do
+    it "supports making a TODO note" do
       expect(DoBy::Note).to receive(:new).with('fix this', '2012-01-01')
       TODO 'fix this', '2012-01-01'
+    end
+
+    it "supports making a FIXME note" do
+      expect(DoBy::Note).to receive(:new).with('fix this', '2012-01-01')
+      FIXME 'fix this', '2012-01-01'
+    end
+
+    it "supports making a OPTIMIZE note" do
+      expect(DoBy::Note).to receive(:new).with('fix this', '2012-01-01')
+      OPTIMIZE 'fix this', '2012-01-01'
     end
   end
 
