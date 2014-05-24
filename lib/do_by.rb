@@ -18,15 +18,11 @@ module DoBy
   end
 end
 
-def TODO(*args)
-  return unless ENV['ENABLE_DO_BY']
-  DoBy::Note.new(*args)
-end
-
-def FIXME(*args)
-  TODO(*args)
-end
-
-def OPTIMIZE(*args)
-  TODO(*args)
+module Kernel
+  def TODO(*args)
+    return unless ENV['ENABLE_DO_BY']
+    DoBy::Note.new(*args)
+  end
+  alias_method :FIXME, :TODO
+  alias_method :OPTIMIZE, :TODO
 end
