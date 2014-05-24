@@ -22,3 +22,11 @@ def TODO(*args)
   return unless ENV['ENABLE_DO_BY']
   DoBy::Note.new(*args)
 end
+
+def FIXME(*args)
+  TODO(*args)
+end
+
+def OPTIMIZE(*args)
+  TODO(*args)
+end
