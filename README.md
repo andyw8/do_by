@@ -21,7 +21,7 @@ This forces you to look at the TODO task again. If it's no longer relevant, you
 can delete it. If you can fix it, you fix it. If you cannot fix it right now,
 change the date to something in the future to re-visit it again.
 
-Aside from `TODO`, you could also use the alias methods `FIXME` and `OPTIMIZE`
+In addition to `TODO`, you could also add tasks for `FIXME` and `OPTIMIZE`
 
 # Example
 
@@ -31,11 +31,11 @@ that will be executed:
 ```ruby
 class Article < ActiveRecord::Base
   TODO 'add named scopes', '2014-06-01'
-  OPTIMIZE 'improve this code', '2014-14-01'
-  FIXME 'some_method is broken', '2014-17-01'
+  OPTIMIZE 'improve this code', '2014-10-01'
+  FIXME 'some_method is broken', '2014-05-01'
 
   has_many :comments
-  # ....
+  # ...
 end
 ```
 
