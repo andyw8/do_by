@@ -1,18 +1,14 @@
 require "do_by/version"
 
 module DoBy
-  class LateTask < RuntimeError
-  end
+  class LateTask < RuntimeError; end
+  class NoDueDateTask < RuntimeError; end
 
   class Note
     def initialize(description, date = nil)
-      message = description + " is overdue"
-      if date
-        parsed_date = DateTime.parse date
-        if parsed_date < Time.now
-          message += " (#{date})"
-          raise LateTask.new(message)
-        end
+      raise NoDueDateTask.new("missing due date") unless date
+      if DateTime.parse(date) < Time.now
+        raise LateTask.new("#{description} is overdue (#{date})")
       end
     end
   end
