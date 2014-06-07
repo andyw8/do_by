@@ -5,8 +5,8 @@
 
 This is a **proof-of-concept** of automatically-expiring TODO notes.
 
-[HackerNews thread](https://news.ycombinator.com/item?id=7759878)
-[Reddit /r/programming thread](http://www.reddit.com/r/programming/comments/25se6v/todo_notes_that_throw_an_exception_if_theyre_not/)
+* [HackerNews thread](https://news.ycombinator.com/item?id=7759878)
+* [Reddit /r/programming thread](http://www.reddit.com/r/programming/comments/25se6v/todo_notes_that_throw_an_exception_if_theyre_not/)
 
 TODO comments can be a plague on a software codebase. They begin as a good
 intention to go back and do something, but are easily forgotten or ignored.
