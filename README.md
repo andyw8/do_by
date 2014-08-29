@@ -76,6 +76,10 @@ And then execute:
 
     $ bundle
 
+## Similar Projects
+
+* [FixMe](https://github.com/henrik/fixme)
+
 ## Contributing
 
 1. Fork it ( https://github.com/andyw8/do_by/fork )
