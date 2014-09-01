@@ -80,6 +80,10 @@ And then execute:
 
 * [FixMe](https://github.com/henrik/fixme)
 
+## Coverage
+
+* [Beware the Siren Song of Comments](http://www.leastastonished.com/blog/2014/08/27/beware-the-siren-song-of-comments/)
+
 ## Contributing
 
 1. Fork it ( https://github.com/andyw8/do_by/fork )
