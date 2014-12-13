@@ -79,6 +79,7 @@ And then execute:
 ## Similar Projects
 
 * [FixMe](https://github.com/henrik/fixme)
+* [DoBy](https://github.com/leanovate/doby) (Scala)
 
 ## Coverage
 
