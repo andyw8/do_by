@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = DoBy::VERSION
   spec.authors       = ["Andy Waite"]
   spec.email         = ["github.aw@andywaite.com"]
-  spec.summary       = %q{Expiring TODOs}
-  spec.description   = %q{Expiring TODOs}
+  spec.summary       = %q{Expiring 'to do' reminders}
+  spec.description   = %q{Expiring 'to do' reminders}
   spec.homepage      = "https://github.com/andyw8/do_by"
   spec.license       = "MIT"
 
