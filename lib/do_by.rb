@@ -1,4 +1,5 @@
 require "do_by/version"
+require "date"
 
 module DoBy
   class LateTask < RuntimeError; end
